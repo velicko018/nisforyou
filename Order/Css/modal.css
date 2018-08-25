@@ -1,0 +1,77 @@
+.modal-header
+{
+    font-family: Arial;
+    font-size: 28px;
+    color:white;
+    text-align:center;
+    background-color:black;
+    opacity:0.75;
+
+
+
+}
+.modal-body
+{
+    display:inline-block;
+    font-family:bold;
+    font-size:20px;
+    cursor:pointer;
+    padding:15px;
+    text-align:center;
+    width:100%;
+   
+
+}
+
+
+.modal-footer
+{
+    background-color:black;
+    opacity:0.75;
+    text-align:center;
+
+    
+}
+.userform
+{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+input
+{
+    text-align:center;
+}
+
+form input[type="submit"]
+{
+   background-color: white;
+    color: black;
+    font-size:17px;
+    border-radius:5px;
+
+}
+form input[type="reset"]
+{
+     background-color: white;
+    color: black;
+    font-size:17px;
+     border-radius:5px; 
+
+}
+form input[type="submit"]:hover
+{
+    background-color:lightgray; /* Green */
+    color: white;
+   
+}
+form input[type="reset"]:hover
+{
+    background-color: lightgray; /* Green */
+    color: white;
+
+}
+.modal-content
+{
+    width:90%;
+}

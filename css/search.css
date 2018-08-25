@@ -1,0 +1,117 @@
+.search input[type=text] {
+    width: 40%;
+    /*width: auto;*/
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    padding: 9px 20px 9px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.searching
+{
+    background-color: #fff;
+    opacity:0.93;
+    overflow: auto;
+    margin-bottom: 20px;
+    max-width: 80%;
+    border-radius: 15px;
+    border: 2px solid #444;
+}
+.skrivenisearch input[type=text]
+{
+    padding: 0;
+    display:block;
+    float: left;
+    width: 100% !important;
+    left:0px;
+    height:30px;
+    background-image: none;
+    z-index: 0;
+}
+.logindugme
+{
+    text-decoration: none !important;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+.smallScreenLog
+{
+    width: 300px;
+    background: #fff;
+    opacity: 0.93;
+    font-size: 16px;
+    text-transform: uppercase;
+    overflow: auto;
+}
+.smallScreenLog input[type=submit]
+{
+    margin-top: 10px !important;
+    width:200px;
+    height: 30px;
+}
+.smallScreenLog a
+{
+    width: 100% !important;
+    font-size: 24px;
+    margin-bottom: 10px !important;
+}
+.smallScreenLog hr
+{
+    width: 80%;
+    margin-left:10%;
+}
+@media screen and (min-width:1024px)
+{
+    .smallScreenLog { display: none;}
+    #kontejnerzaSearch
+    {
+        max-width: 70%;
+    }
+}
+@media screen and (max-width:1024px)
+{
+    #kontejnerzaSearch
+    {
+        max-width: 100%;
+         margin:0px; 
+         border-radius: 0px; 
+         border:0px; 
+         width: 100%;
+    }
+    #contzaSearch {width: 100%;}
+}
+@media screen and (max-width: 665px)
+{
+    .skrivenisearch input
+    {
+        max-width: 250% !important;
+    }
+    .skrivenisearch
+    {
+        max-width: 100%;
+        width: 100%;
+    }
+
+}
+#kontejnerzaSearch
+{
+    background: #fff;
+    opacity: 1;
+    /*max-width: 70%;*/
+    min-width: 60%;
+    margin:0px;
+    margin-bottom: 20px;
+    display:block;
+    overflow: auto;
+    border-radius: 15px;
+    border: 2px solid #444;
+}
+#contzaSearch
+{
+    display:table-row;
+    text-align: center;
+}

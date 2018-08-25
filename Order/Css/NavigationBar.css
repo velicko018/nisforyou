@@ -1,0 +1,104 @@
+ul {
+    list-style-type: none;
+    margin-bot:50px;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color:black;
+    opacity:0.9
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:18px;
+    font-family:bold;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+    text-decoration:none;
+}
+
+li a.active {
+    color: white;
+    background-color:#821;
+    text-decoration:none;
+}
+.nav-bar
+{
+    height:100px;
+}
+
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+#Logovan
+{
+	color:White;
+	margin-left:2px;
+	padding:14px;
+	font-family:bold;
+	border:1px solid grey;
+        font-size:20px;
+}
+#logout
+{
+	color:grey;
+	font-family:bold;
+	font-size:20px;
+	
+
+}
+
+#grpChkBox
+{
+	background-color:black;
+	opacity:0.9;
+	color:white;
+	border-radius:10px;
+}
+
+#grpChkBox p
+{
+ display:inline-block;
+ color:black;
+ font-size:18px;
+ font-family:Comic Sans;
+ margin:10px;
+ color:white;
+}
+
+#grpChkBox
+{
+    text-align: center;
+}
+
+     
+

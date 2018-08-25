@@ -1,0 +1,613 @@
+/*/*/*
+footer a
+{
+    font-size: 24px;
+    color: #444;
+}
+body {
+    /*font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+/*    font-family: Tahoma;*/
+font-family: Arial;
+    background: url('../img/pozadina.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #666;
+}
+p2,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Jdosefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 500px;
+    border-color: #999999;
+}
+
+.slide img
+{
+    height: 500px !important;
+    width: 890px !important;
+}
+@media screen and (max-width: 1024px)
+{
+    .slide img
+    {
+        height: 400px !important;
+        width: 710px !important;
+    }
+}
+@media screen and (max-width: 720px)
+{
+    .slide img
+    {
+        height: 300px !important;
+        width: 533px !important;
+    }
+}
+@media screen and (max-width: 550px)
+{
+    .slide img
+    {
+        height: 240px !important;
+        width: 426px !important;
+    }
+}
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+.lng {display:none;}
+.lngskriveni {
+    display:block;
+    float:right;
+    padding: 12px;
+}
+
+@media screen and (min-width:768px) {
+
+    .lng {display:inline;}
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0px;
+        max-height: 130px;
+    }
+    .navbar select
+    {
+        border:none;
+        position: relative;
+        text-align: center;
+        float:right;
+        width: 70px;
+        margin-top: 18px
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,1);
+    }
+
+    .nav>li>a {
+        padding: 20px;
+    }
+    .nav>button {padding:32px;}
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+}
+.regbtn
+{
+   width: 200px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    text-align: center;
+}
+.regbtn:hover
+{
+    background-color: #444;
+    color:white;
+    border-color: #aaa;
+}
+.RegistrationForm
+{
+    display: none;
+}
+.RegistrationForm input[type=submit] 
+{
+    width: 160px;
+}
+.RegistrationForm input
+{
+    display: block;
+}
+.RegistrationForm span
+{
+    display: block;
+}
+.RegistrationForm select 
+{
+    display: block;
+    width: 200px !important;
+    padding: 5px;
+}
+.RegistrationForm input {
+    width: 200px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    text-align: center;}
+#registruj_me
+{
+    width: 200px !important;
+    background-color: #444;
+    color: white;
+    border:1px solid #aaa;
+}
+#registruj_me:hover
+{
+    width: 200px !important;
+    background-color: white;
+    color: #444;
+}
+.dropbtn 
+{
+/*    font-size: 18px;
+    max-width: 200px;*/
+    padding: 0px;
+    border: none;
+    transition: 0.4s;
+    background-color: white;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+     text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+.dropdown {
+    position: relative;
+    padding: 18px;
+    }
+
+.dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    z-index: 100;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.dropdown-content input[type=text]
+{
+    width: 90% !important;
+}
+.dropdown-content input[type=password]
+{
+    width: 90% !important;
+}
+.dropdown-content a {
+    color: #fff;
+    /*padding: 12px 16px;*/
+    text-decoration: none;
+    display: block;
+}
+#reg_btn
+{
+    padding: 5px;
+    text-transform: lowercase !important;
+}
+
+.dropdown-content a:hover {background-color: #fff; color:#000; text-transform:uppercase ;text-decoration:none; }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-align:center;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #fff; color:black;
+}
+.button
+{
+  color:#fff;
+  width:90%;
+  /*margin:5px !important;*/
+  margin-top: 10px;
+  margin-bottom: 0px;
+ border:1px solid #393B3E;
+ border-radius:3px;
+ background-color: #444;
+}
+.button:hover
+
+{
+    background-color:#fff;
+    color:#000;
+}
+a.button
+{
+    margin: 0px !important;
+    margin-left:10px !important;
+}
+.col-sm-4 img
+{
+    height: 280px;
+    width: 320px;
+}
+@media(max-width: 768px)
+{ 
+    #login1 {display: none;}
+    #login {display: none;}
+    
+    .col-sm-4 img
+    {
+        height: 280px;
+        width: 100%;
+    }
+    .visiblesearch{
+        display: none;
+    }
+}
+
+
+
+.item img
+{
+    max-height: 560px;
+}
+col-sm-4 h3
+{
+    text-align: center;
+}
+.tagCloud
+{
+    opacity:0.8;
+    height: 30px;
+    margin-top:10px;
+}
+.tagCloud a
+{
+    border-radius: 2px;
+    padding:20px;
+    text-decoration: none;
+    padding: 0px 4px;
+    margin: 0px 4px 4px 0px;
+    /*background: rgba(255,255,255,0.9);*/
+    color: black !important;
+    font-size: 23px !important;
+    text-transform: uppercase;
+ 
+}
+.tagCloud a:hover
+{
+ background: black;
+ color: white !important;
+ background: rgba(0,0,0,0.9);  
+}
+#skriveni
+{
+    border:1.5px solid gray;
+    display: block;
+    float:left;
+    width: 100%;
+}
+#skriveni h{
+    font-size: 30px;
+    margin:30px;
+}
+#skriveni p,select
+{
+    display:block;
+    font-size:18px;
+}
+#skriveni input
+{
+    font-size:15px;
+    text-align: center;
+    width: 200px;
+}
+#skriveni select
+{
+    width: 200px;
+    text-align: center;
+}
+#sakriveni input[type=submit]
+{
+    margin:10px;
+}
+.komentar
+{
+    box-sizing: border-box;
+    /*border: 1px solid #78909C;*/
+    /*background-color: #444;*/
+    background-color: #666;
+    width:400px;
+    margin:10px;
+    border-radius:3px;
+    position: relative;
+    height: auto;
+    overflow: auto;  
+}
+.komentar p1
+{
+    color:#fff;
+    float:left;
+    margin: 5px;
+}
+#komentar
+{
+    clear:both;
+    margin:2%;
+    padding: 5  px;
+    float:left;
+    display: inline-block; 
+    /*border: 1px solid #000;*/
+    /*border-radius: 5px;*/
+    background-color: #fff;
+    max-width: 390px;
+    width:96%;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: auto;
+
+}
+.komentar textarea
+{
+    clear:both;
+    height: 60px;
+    border-radius: 5px;
+    float:left;
+    margin-left:10px;
+    width: 70%;
+    display: block;
+    resize: none;
+}
+.komentarisanje
+{
+    width: 80%; 
+/*    max-width: 80%;*/
+    max-width: 400px;
+    height: 100px !important;
+}
+.komentarisanje textarea
+{
+    max-width: 310px;
+}
+.komentar img
+{
+    clear: both;
+    top: 0;
+    color:white;
+    right:0;
+    float:right;
+    position: relative;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#submit
+{
+    width: 20%;
+    height: 60px;
+    margin: 0px;
+    border-radius: 5px;
+    /*border-radius: 2px solid #607D8B;*/
+    /*background-color:#37474F;*/
+    background-color: #eee;
+    color:#555;
+    font-size: 16px;
+    display:block;
+    margin-right:15px;
+    margin-bottom: 10px;
+    float:right;
+    border: 0 !important;
+}
+
+@media screen and (max-width: 1224px) and (min-width: 768px)
+{
+    .nav>li>a {
+        padding: 15px;
+    }
+    .nav>button {padding:12px;}
+    .navbar select {margin-top:  13px;}
+    .dropdown {
+    padding: 12px;
+    }
+    .container
+    {
+        max-width: 100% !important;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .komentar
+    {
+        max-width: 300px;
+    }
+    .komentarisanje textarea
+    {
+        max-width: 230px;
+    }
+    .container
+    {
+        max-width: 100% !important;
+    }
+}
+.container
+{
+    max-width: 70%;
+    opacity: 1;
+}
+.brand, .address-bar
+{
+   /* background-color: #444;
+    max-width: 70%;
+    opacity: 0.7;
+    margin-left:15%;*/
+    text-shadow: 3px 3px #444;
+}
